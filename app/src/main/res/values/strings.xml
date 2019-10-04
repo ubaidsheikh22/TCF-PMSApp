@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    
+    <string-array name="names">
+        <item>Sindh</item>
+        <item>Punjab</item>
+        <item>khyber pakhtunkhwa</item>
+        <item>Balochistan</item>
+    </string-array>
+</resources>
