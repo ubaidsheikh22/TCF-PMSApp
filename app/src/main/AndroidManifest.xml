@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".selectRegionActivity"></activity>
+        <activity android:name=".Constructionapanel"></activity>
+        <activity
+            android:name=".ConstructionManagement"
+            android:label="@string/title_activity_construction_management"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".selectRegionActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
